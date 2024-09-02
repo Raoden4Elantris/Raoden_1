@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: #eee;
+}
+
+form {
+  margin: 0;
+  width: 100%;
+  padding: 0.4rem;
+}
+
+label,
+input {
+  font-weight: 550;
+  background: transparent;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-color: #444;
+  border-bottom: none;
+  outline: none;
+  border-radius: 3rem;
+}
+
+label {
+  font-weight: 800;
+}
+
+.btn {
+  width: 30%;
+  padding: 0.5rem;
+  border: none;
+  background-color: #444;
+  color: #fff;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-right: 45.5%;
+  cursor: pointer;
+}
+
+input:hover {
+  background-color: #ddd;
+}
+
+input:focus {
+  background-color: #ddd;
+}
+
+.btn:focus {
+  background-color: #444;
+}
+
+.btn:hover {
+  background-color: #aaa;
+}
